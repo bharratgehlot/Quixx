@@ -1,7 +1,17 @@
 [
-  { "question": "Who was the first President of the United States?", "options": ["Abraham Lincoln", "Thomas Jefferson", "George Washington", "John Adams"], "answer": "George Washington" },
-  { "question": "In which year did World War II end?", "options": ["1942", "1945", "1950", "1939"], "answer": "1945" },
-  { "question": "The ancient Egyptians are famous for building what structures?", "options": ["Ziggurats", "Pyramids", "Colosseums", "Temples"], "answer": "Pyramids" },
-  { "question": "Who discovered America in 1492?", "options": ["Ferdinand Magellan", "Vasco da Gama", "Marco Polo", "Christopher Columbus"], "answer": "Christopher Columbus" },
-  { "question": "The Renaissance was a rebirth of art and learning that started in which country?", "options": ["France", "Spain", "Italy", "Greece"], "answer": "Italy" }
+  { "question": "Which classroom window refuses to open since 2010?", "options": ["Room 102", "Room 206", "Room 310", "Room 420"], "answer": "Room 206" },
+  { "question": "How many students secretly eat snacks in class?", "options": ["5", "25", "100", "Everyone"], "answer": "Everyone" },
+  { "question": "Which brand of fan is installed in most classrooms?", "options": ["Bajaj", "Usha", "Orient", "No Brand, Just Noise"], "answer": "Usha" },
+  { "question": "How many keyboards are missing in Lab 2?", "options": ["1", "3", "5", "All of Them"], "answer": "3" },
+  { "question": "What is the annual college fee according to seniors?", "options": ["50,000", "1,00,000", "2,00,000", "Kidney"], "answer": "1,00,000" },
+  { "question": "Which projector always refuses to connect?", "options": ["Projector 1", "Projector 2", "Projector 3", "All Projectors"], "answer": "Projector 2" },
+  { "question": "What is the color of the chairs in the library?", "options": ["Black", "Brown", "Blue", "50 Shades of Rust"], "answer": "Brown" },
+  { "question": "Which classroom whiteboard has permanent marker stains?", "options": ["101", "205", "309", "Every Whiteboard"], "answer": "205" },
+  { "question": "What brand is written on the broken water cooler?", "options": ["Kent", "Aquaguard", "Voltas", "Mystery Brand"], "answer": "Voltas" },
+  { "question": "How many tube lights actually work in Lab 4?", "options": ["2", "4", "6", "None"], "answer": "4" },
+  { "question": "Which mouse in Lab 5 has no left-click button?", "options": ["Mouse 2", "Mouse 7", "Mouse 11", "All"], "answer": "Mouse 7" },
+  { "question": "What chair does the principal usually sit on?", "options": ["Black Revolving", "Wooden", "Plastic", "Invisible Throne"], "answer": "Black Revolving" },
+  { "question": "How many switches in Room 301 actually work?", "options": ["1", "2", "3", "Surprise Each Day"], "answer": "2" },
+  { "question": "What is the actual fastest Wi-Fi speed students get?", "options": ["10 Mbps", "5 Mbps", "1 Mbps", "404 Not Found"], "answer": "1 Mbps" },
+  { "question": "What is the total number of students in AI?", "options": ["30", "40", "67", "71"], "answer": "67" }
 ]

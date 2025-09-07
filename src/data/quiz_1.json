@@ -1,17 +1,19 @@
 [
   { "question": "What is the Wi-Fi password in the library", "options": ["12345678", "ilovebooks", "library@123", "nointernet"], "answer": "library@123" },
   { "question": "What is the color of the walls in Lab-5?", "options": ["Blue", "White", "Black", "Transparent"], "answer": "White" },
-  { "question": "How many fans are there in Classroom 301?", "options": ["2", "4", "10", "0"], "answer": "4" },
-  { "question": "What force keeps us on the ground?", "options": ["Magnetism", "Gravity", "Friction", "Tension"], "answer": "Gravity" },
-  { "question": "What is the speed of light?", "options": ["300,000 km/s", "150,000 km/s", "500,000 km/s", "1,000,000 km/s"], "answer": "300,000 km/s" },
+  { "question": "How many fans are there in Classroom R3/R4?", "options": ["2", "4", "10", "0"], "answer": "4" },
   { "question": "What is the most famous snack in the canteen?", "options": ["Samosa", "Sushi", "Whopper", "Caviar"], "answer": "Samosa" },
   { "question": "Which teacher always asks 'Did you understand?' after every line?", "options": ["Sharma Sir", "Gupta Ma’am", "Patel Sir", "Verma Sir"], "answer": "Verma Sir" },
   { "question": "What is written on the notice board near the canteen?", "options": ["Exam Timetable", "Free Wi-Fi Zone", "No Smoking, Only Dancing", "Today's Menu: Pizza"], "answer": "Exam Timetable" },
   { "question": "Which lab has the broken chair everyone avoids?", "options": ["Lab 1", "Lab 3", "Lab 5", "Lab 7"], "answer": "Lab 3" },
-  { "question": "How many steps are there on the staircase to the library?", "options": ["25", "30", "50", "I stopped counting"], "answer": "30" },
-  { "question": "Which notice is permanently pinned in the principal’s office?", "options": ["No Entry Without Permission", "Chai Break 4-5 PM", "Silence Please", "Do Not Disturb"], "answer": "No Entry Without Permission" },
+  { "question": "How many steps are there on the staircase (Library side) from ground to first floor?", "options": ["25", "30", "50", "I stopped counting"], "answer": "30" },
+  
   { "question": "Which computer in Lab 2 never works?", "options": ["PC1", "PC4", "PC7", "PC13"], "answer": "PC7" },
-  { "question": "What is the color of the principal’s chair?", "options": ["Red", "Brown", "Black", "Rainbow"], "answer": "Black" },
-  { "question": "Which subject class has the maximum bunk rate?", "options": ["Maths", "Physics", "DBMS", "English"], "answer": "Maths" },
-  { "question": "What sound does the projector make before starting?", "options": ["Beep", "Buzz", "Explosion-like", "Silent"], "answer": "Buzz" }
+
+  { "question": "Which subject class has the maximum bunk rate?", "options": ["Deep Learning", "Linux Lab", "Compiler Design", "COA"], "answer": "Linux Lab" },
+  { "question": "What sound does the projector make before starting?", "options": ["Beep", "Buzz", "Explosion-like", "Silent"], "answer": "Buzz" },
+  { "question": "Which water cooler gives water that tastes like tea?", "options": ["Ground Floor", "First Floor", "Second Floor", "Rooftop"], "answer": "First Floor" },
+   { "question": "What color is the ceiling fan in the seminar hall?", "options": ["White", "Rust Brown", "Golden", "Invisibility"], "answer": "Rust Brown" },
+   { "question": "Which lift always gets stuck between floors?", "options": ["Lift A", "Lift B", "Lift C", "Imaginary Lift"], "answer": "Imaginary Lift" },
+   { "question": "What animal once entered the classroom during a lecture?", "options": ["Cat", "Dog", "Monkey", "Cow"], "answer": "Dog" }
 ]
