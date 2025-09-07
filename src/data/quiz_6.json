@@ -1,0 +1,7 @@
+[
+  { "question": "What does 'CPU' stand for?", "options": ["Central Processing Unit", "Computer Personal Unit", "Central Power Unit", "Core Processing Unit"], "answer": "Central Processing Unit" },
+  { "question": "Who is the co-founder of Microsoft?", "options": ["Steve Jobs", "Bill Gates", "Larry Page", "Mark Zuckerberg"], "answer": "Bill Gates" },
+  { "question": "What does 'HTTP' stand for?", "options": ["HyperText Transfer Protocol", "HyperText Transmission Protocol", "Hyperlink Transfer Protocol", "Hyperlink Transmission Protocol"], "answer": "HyperText Transfer Protocol" },
+  { "question": "In what year was the first iPhone released?", "options": ["2005", "2007", "2009", "2010"], "answer": "2007" },
+  { "question": "What is the primary function of RAM in a computer?", "options": ["Long-term storage", "Temporary data storage", "Processing calculations", "Powering the monitor"], "answer": "Temporary data storage" }
+]

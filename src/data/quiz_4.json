@@ -1,0 +1,7 @@
+[
+  { "question": "Who directed the movie 'Jurassic Park'?", "options": ["James Cameron", "George Lucas", "Steven Spielberg", "Christopher Nolan"], "answer": "Steven Spielberg" },
+  { "question": "Which movie features the character 'Darth Vader'?", "options": ["Star Trek", "The Lord of the Rings", "Harry Potter", "Star Wars"], "answer": "Star Wars" },
+  { "question": "In 'The Matrix', what color pill does Neo take?", "options": ["Blue", "Green", "Red", "Yellow"], "answer": "Red" },
+  { "question": "What is the highest-grossing film of all time (unadjusted for inflation)?", "options": ["Titanic", "Avatar", "Avengers: Endgame", "Star Wars: The Force Awakens"], "answer": "Avatar" },
+  { "question": "Which animated film features a character named Simba?", "options": ["Aladdin", "The Lion King", "Toy Story", "Shrek"], "answer": "The Lion King" }
+]

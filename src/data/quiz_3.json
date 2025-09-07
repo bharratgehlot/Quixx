@@ -1,0 +1,7 @@
+[
+  { "question": "What is the capital of Japan?", "options": ["Beijing", "Seoul", "Tokyo", "Bangkok"], "answer": "Tokyo" },
+  { "question": "Which is the longest river in the world?", "options": ["Amazon River", "Nile River", "Yangtze River", "Mississippi River"], "answer": "Nile River" },
+  { "question": "What is the largest desert in the world?", "options": ["Sahara Desert", "Arabian Desert", "Gobi Desert", "Antarctic Polar Desert"], "answer": "Antarctic Polar Desert" },
+  { "question": "Mount Everest is located in which mountain range?", "options": ["The Andes", "The Rockies", "The Alps", "The Himalayas"], "answer": "The Himalayas" },
+  { "question": "Which country is known as the Land of the Rising Sun?", "options": ["China", "South Korea", "Japan", "Thailand"], "answer": "Japan" }
+]

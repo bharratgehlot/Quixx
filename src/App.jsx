@@ -1,59 +1,23 @@
 import React, { useState, useMemo, useCallback } from 'react';
+// Replace the QUIZ_BANK object with imports
+import quiz1 from './data/quiz_1.json';
+import quiz2 from './data/quiz_2.json';
+import quiz3 from './data/quiz_3.json';
+import quiz4 from './data/quiz_4.json';
+import quiz5 from './data/quiz_5.json';
+import quiz6 from './data/quiz_6.json';
+import quiz7 from './data/quiz_7.json';
 
-// --- Static Quiz Data Bank ---
-// In a real app, this might come from separate JSON files.
-// For this single-file component, we'll define it here.
 const QUIZ_BANK = {
-  "Science": [
-    { question: "What is the chemical symbol for water?", options: ["O2", "H2O", "CO2", "NaCl"], answer: "H2O" },
-    { question: "Which planet is known as the Red Planet?", options: ["Earth", "Mars", "Jupiter", "Venus"], answer: "Mars" },
-    { question: "What is the powerhouse of the cell?", options: ["Nucleus", "Ribosome", "Mitochondrion", "Chloroplast"], answer: "Mitochondrion" },
-    { question: "What force keeps us on the ground?", options: ["Magnetism", "Gravity", "Friction", "Tension"], answer: "Gravity" },
-    { question: "What is the speed of light?", options: ["300,000 km/s", "150,000 km/s", "500,000 km/s", "1,000,000 km/s"], answer: "300,000 km/s" }
-  ],
-  "History": [
-    { question: "Who was the first President of the United States?", options: ["Abraham Lincoln", "Thomas Jefferson", "George Washington", "John Adams"], answer: "George Washington" },
-    { question: "In which year did World War II end?", options: ["1942", "1945", "1950", "1939"], answer: "1945" },
-    { question: "The ancient Egyptians are famous for building what structures?", options: ["Ziggurats", "Pyramids", "Colosseums", "Temples"], answer: "Pyramids" },
-    { question: "Who discovered America in 1492?", options: ["Ferdinand Magellan", "Vasco da Gama", "Marco Polo", "Christopher Columbus"], answer: "Christopher Columbus" },
-    { question: "The Renaissance was a rebirth of art and learning that started in which country?", options: ["France", "Spain", "Italy", "Greece"], answer: "Italy" }
-  ],
-  "Geography": [
-    { question: "What is the capital of Japan?", options: ["Beijing", "Seoul", "Tokyo", "Bangkok"], answer: "Tokyo" },
-    { question: "Which is the longest river in the world?", options: ["Amazon River", "Nile River", "Yangtze River", "Mississippi River"], answer: "Nile River" },
-    { question: "What is the largest desert in the world?", options: ["Sahara Desert", "Arabian Desert", "Gobi Desert", "Antarctic Polar Desert"], answer: "Antarctic Polar Desert" },
-    { question: "Mount Everest is located in which mountain range?", options: ["The Andes", "The Rockies", "The Alps", "The Himalayas"], answer: "The Himalayas" },
-    { question: "Which country is known as the Land of the Rising Sun?", options: ["China", "South Korea", "Japan", "Thailand"], answer: "Japan" }
-  ],
-  "Movies": [
-    { question: "Who directed the movie 'Jurassic Park'?", options: ["James Cameron", "George Lucas", "Steven Spielberg", "Christopher Nolan"], answer: "Steven Spielberg" },
-    { question: "Which movie features the character 'Darth Vader'?", options: ["Star Trek", "The Lord of the Rings", "Harry Potter", "Star Wars"], answer: "Star Wars" },
-    { question: "In 'The Matrix', what color pill does Neo take?", options: ["Blue", "Green", "Red", "Yellow"], answer: "Red" },
-    { question: "What is the highest-grossing film of all time (unadjusted for inflation)?", options: ["Titanic", "Avatar", "Avengers: Endgame", "Star Wars: The Force Awakens"], answer: "Avatar" },
-    { question: "Which animated film features a character named Simba?", options: ["Aladdin", "The Lion King", "Toy Story", "Shrek"], answer: "The Lion King" }
-  ],
-  "Music": [
-    { question: "Who is known as the 'King of Pop'?", options: ["Elvis Presley", "Michael Jackson", "Freddie Mercury", "David Bowie"], answer: "Michael Jackson" },
-    { question: "How many strings does a standard guitar have?", options: ["4", "5", "6", "7"], answer: "6" },
-    { question: "Which band released the album 'Abbey Road'?", options: ["The Rolling Stones", "The Beatles", "Led Zeppelin", "Queen"], answer: "The Beatles" },
-    { question: "What genre of music originated in New Orleans?", options: ["Blues", "Country", "Rock and Roll", "Jazz"], answer: "Jazz" },
-    { question: "Who wrote the classical masterpiece 'The Four Seasons'?", options: ["Bach", "Mozart", "Beethoven", "Vivaldi"], answer: "Vivaldi" }
-  ],
-  "Technology": [
-    { question: "What does 'CPU' stand for?", options: ["Central Processing Unit", "Computer Personal Unit", "Central Power Unit", "Core Processing Unit"], answer: "Central Processing Unit" },
-    { question: "Who is the co-founder of Microsoft?", options: ["Steve Jobs", "Bill Gates", "Larry Page", "Mark Zuckerberg"], answer: "Bill Gates" },
-    { question: "What does 'HTTP' stand for?", options: ["HyperText Transfer Protocol", "HyperText Transmission Protocol", "Hyperlink Transfer Protocol", "Hyperlink Transmission Protocol"], answer: "HyperText Transfer Protocol" },
-    { question: "In what year was the first iPhone released?", options: ["2005", "2007", "2009", "2010"], answer: "2007" },
-    { question: "What is the primary function of RAM in a computer?", options: ["Long-term storage", "Temporary data storage", "Processing calculations", "Powering the monitor"], answer: "Temporary data storage" }
-  ],
-  "Sports": [
-    { question: "How many players are on a standard soccer team on the field?", options: ["9", "10", "11", "12"], answer: "11" },
-    { question: "Which country won the first ever FIFA World Cup in 1930?", options: ["Brazil", "Argentina", "Italy", "Uruguay"], answer: "Uruguay" },
-    { question: "In basketball, how many points is a free throw worth?", options: ["1", "2", "3", "4"], answer: "1" },
-    { question: "What is the national sport of Japan?", options: ["Judo", "Karate", "Sumo Wrestling", "Baseball"], answer: "Sumo Wrestling" },
-    { question: "Which athlete has the most Olympic medals?", options: ["Usain Bolt", "Michael Phelps", "Larisa Latynina", "Paavo Nurmi"], answer: "Michael Phelps" }
-  ]
+  "General": quiz1,
+  "History": quiz2,
+  "Geography": quiz3,
+  "Movies": quiz4,
+  "Music": quiz5,
+  "Technology": quiz6,
+  "Sports": quiz7
 };
+
 
 const GlobalStyles = () => (
   <style>{`

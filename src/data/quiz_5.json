@@ -1,0 +1,7 @@
+[
+  { "question": "Who is known as the 'King of Pop'?", "options": ["Elvis Presley", "Michael Jackson", "Freddie Mercury", "David Bowie"], "answer": "Michael Jackson" },
+  { "question": "How many strings does a standard guitar have?", "options": ["4", "5", "6", "7"], "answer": "6" },
+  { "question": "Which band released the album 'Abbey Road'?", "options": ["The Rolling Stones", "The Beatles", "Led Zeppelin", "Queen"], "answer": "The Beatles" },
+  { "question": "What genre of music originated in New Orleans?", "options": ["Blues", "Country", "Rock and Roll", "Jazz"], "answer": "Jazz" },
+  { "question": "Who wrote the classical masterpiece 'The Four Seasons'?", "options": ["Bach", "Mozart", "Beethoven", "Vivaldi"], "answer": "Vivaldi" }
+]
